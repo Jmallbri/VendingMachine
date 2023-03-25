@@ -7,7 +7,7 @@ public abstract class Product {
 
     private String name;
     private BigDecimal price;
-    private String type;
+
     private int quantity;
 
     public abstract String response();
@@ -17,9 +17,6 @@ public abstract class Product {
     }
     public void setPrice(BigDecimal price) {
         this.price = price;
-    }
-    public void setType(String type) {
-        this.type = type;
     }
     public int getQuantity() {
         return quantity;
@@ -34,9 +31,7 @@ public abstract class Product {
     public BigDecimal getPrice() {
         return price;
     }
-    public String getType() {
-        return type;
-    }
+
 
 
     // Define the basic attributes of a Product, like name and price.

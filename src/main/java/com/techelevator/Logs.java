@@ -7,8 +7,6 @@ import java.time.format.DateTimeFormatter;
 
 public class Logs {
     File log = new File("C:\\Users\\Student\\workspace\\module-1-capstone-team-5\\src\\main\\resources\\log.txt");
-//    File salesLog = new File("C:\\Users\\Student\\workspace\\module-1-capstone-team-5\\src\\main\\resources\\salesLog.txt");
-
     boolean append = log.exists();
 
     LocalDateTime now = LocalDateTime.now();

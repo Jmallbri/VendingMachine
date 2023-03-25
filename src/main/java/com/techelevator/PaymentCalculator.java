@@ -58,7 +58,6 @@ public class PaymentCalculator {
 
         BigDecimal multipliedBy100 = vendingMachineCLI.paymentCalculator.getCurrentMoney().multiply(BigDecimal.valueOf(100.0));
         int currentBalance = multipliedBy100.intValue();
-//        int currentBalance = (vendingMachineCLI.paymentCalculator.getCurrentMoney().intValue() * 100);
         int numberOfQuarters = (int) (currentBalance / QUARTER);
         currentBalance = currentBalance % QUARTER;
         int numberOfDimes = (int) (currentBalance / DIME);
