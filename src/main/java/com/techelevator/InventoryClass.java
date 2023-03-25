@@ -8,8 +8,6 @@ import java.util.TreeMap;
 
 public class InventoryClass {
     private static final int MAX_INVENTORY_PER_ITEM = 5;
-    VendingMachine vMachine = new VendingMachine();
-
     Scanner userInput = new Scanner(System.in);
 
     public Map<String, Product> setInventory() {
